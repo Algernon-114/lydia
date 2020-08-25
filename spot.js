@@ -26,7 +26,7 @@
         .then(() => engine.shake())
         .then(() => engine.toText('move on'))
         .then(() => engine.shake())
-        .then(() => engine.toText('喵'))
+        .then(() => engine.toText('喵~'))
         .then(() => engine.shake())
         .then(() => engine.toText('七夕快乐❤'))
         .then(() => engine.shake())
