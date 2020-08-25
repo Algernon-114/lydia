@@ -4,10 +4,10 @@ function Shape() {
     this.canvas = document.createElement('canvas');
     this.context = this.canvas.getContext('2d');
     this.fontSize = 100;
-    this.dotGap = 5;
+    this.dotGap = 9;
 }
 
-Shape.radius = 7;
+Shape.radius = 4;
 
 Shape.point = function point(x, y)
 {
