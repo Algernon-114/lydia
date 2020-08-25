@@ -3,7 +3,7 @@
 function Shape() {
     this.canvas = document.createElement('canvas');
     this.context = this.canvas.getContext('2d');
-    this.fontSize = 130;
+    this.fontSize = 120;
     this.dotGap = 7;
 }
 
