@@ -27,7 +27,7 @@
         .then(() => engine.toText('开心一点吧'))
         .then(() => engine.shake())
         .then(() => engine.toText('七夕快乐❤'))
-        // .then(() => engine.shake())
+        .then(() => engine.shake())
         // .then(() => engine.toText('❤❤❤'))
         // .then(() => engine.shake())
         // .then(() => engine.clear())
