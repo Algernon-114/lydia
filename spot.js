@@ -10,9 +10,7 @@
     
     function start() {
         document.getElementById('go').removeEventListener('click', start);
-        promise.then(() => engine.toText('没有准备礼物'))
-        .then(() => engine.shake())
-        .then(() => engine.toText('就折腾了下这个'))
+        promise.then(() => engine.toText('啊，我'))
         .then(() => engine.shake())
         .then(() => engine.toText('折腾了一晚上'))
         .then(() => engine.shake())
@@ -20,11 +18,15 @@
         .then(() => engine.shake())
         .then(() => engine.toText('我太菜了'))
         .then(() => engine.shake())
+        .then(() => engine.toText('_(:з」∠)_'))
+        .then(() => engine.shake())
         .then(() => engine.toText('anyway'))
         .then(() => engine.shake())
-        .then(() => engine.toText('希望能让你'))
+        .then(() => engine.toText('生活还是要'))
         .then(() => engine.shake())
-        .then(() => engine.toText('开心一点吧'))
+        .then(() => engine.toText('move on'))
+        .then(() => engine.shake())
+        .then(() => engine.toText('喵'))
         .then(() => engine.shake())
         .then(() => engine.toText('七夕快乐❤'))
         .then(() => engine.shake())
