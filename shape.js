@@ -82,9 +82,9 @@ Shape.prototype.text = function(str) {
     var context = this.context;
     var canvas = this.canvas;
     var fontSize = this.fontSize;
-    context.font = 'bold 30px sans-serif';
+    context.font = '30px sans-serif';
     var size = Math.min(0.22 * fontSize / context.measureText(str).width * canvas.width, 0.6 * canvas.height);
-    context.font = 'bold ' + Math.floor(size) + 'px sans-serif';
+    context.font = '' + Math.floor(size) + 'px sans-serif';
     console.log(size);
     context.clearRect(0, 0, canvas.width, canvas.height);
     context.fillText(str, canvas.width / 2, canvas.height / 2);
