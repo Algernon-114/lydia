@@ -24,7 +24,7 @@ Shape.point = function point(x, y)
     // 1  : showing up
 };
 
-Shape.point.prototype.r = 7;
+Shape.point.prototype.r = 5;
 
 Shape.point.prototype.render = function (context) {
     context.beginPath();
