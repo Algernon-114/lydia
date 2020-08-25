@@ -3,11 +3,11 @@
 function Shape() {
     this.canvas = document.createElement('canvas');
     this.context = this.canvas.getContext('2d');
-    this.fontSize = 200;
-    this.dotGap = 5;
+    this.fontSize = 130;
+    this.dotGap = 7;
 }
 
-Shape.radius = 2;
+Shape.radius = 3;
 
 Shape.point = function point(x, y)
 {
